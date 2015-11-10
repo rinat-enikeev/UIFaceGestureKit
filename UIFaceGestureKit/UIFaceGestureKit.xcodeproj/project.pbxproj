@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E581104199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E581102199A58FA00CB9CC1 /* UITableView+UIFaceGestureKit.h */; };
+		0E581105199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581103199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.m */; };
+		0E581106199A810200CB9CC1 /* UITableView+UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E581102199A58FA00CB9CC1 /* UITableView+UIFaceGestureKit.h */; };
+		0E581109199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E581107199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h */; };
+		0E58110A199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581108199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.m */; };
+		0E58110B199A9B2400CB9CC1 /* UICollectionView+UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E581107199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h */; };
+		0E5811C6199ABD6000CB9CC1 /* KeyboardCharacters.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811C8199ABD6000CB9CC1 /* KeyboardCharacters.strings */; };
+		0E5811C9199ABD7000CB9CC1 /* KeyboardShiftUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811CB199ABD7000CB9CC1 /* KeyboardShiftUp.png */; };
+		0E5811CC199ABD7200CB9CC1 /* KeyboardShiftDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811CE199ABD7200CB9CC1 /* KeyboardShiftDown.png */; };
+		0E5811CF199ABD7400CB9CC1 /* KeyboardRightShiftDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811D1199ABD7400CB9CC1 /* KeyboardRightShiftDown.png */; };
+		0E5811D2199ABD7600CB9CC1 /* KeyboardRightShiftUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811D4199ABD7600CB9CC1 /* KeyboardRightShiftUp.png */; };
+		0E5811D5199ABD7800CB9CC1 /* KeyboardEnDigits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811D7199ABD7800CB9CC1 /* KeyboardEnDigits.png */; };
+		0E5811D8199ABD7900CB9CC1 /* KeyboardRuDigits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811DA199ABD7900CB9CC1 /* KeyboardRuDigits.png */; };
+		0E5811DB199ABD7B00CB9CC1 /* KeyboardEnSharp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811DD199ABD7B00CB9CC1 /* KeyboardEnSharp.png */; };
+		0E5811DE199ABD7D00CB9CC1 /* KeyboardRuSharp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811E0199ABD7D00CB9CC1 /* KeyboardRuSharp.png */; };
+		0E5811E1199ABD7F00CB9CC1 /* KeyboardEn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811E3199ABD7F00CB9CC1 /* KeyboardEn.png */; };
+		0E5811E4199ABD8000CB9CC1 /* KeyboardRu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811E6199ABD8000CB9CC1 /* KeyboardRu.png */; };
+		0E5811E7199ABD8300CB9CC1 /* KeyboardRuIPhoneShiftDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811E9199ABD8300CB9CC1 /* KeyboardRuIPhoneShiftDown.png */; };
+		0E5811EA199ABD8500CB9CC1 /* KeyboardRuIPhoneShiftUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811EC199ABD8500CB9CC1 /* KeyboardRuIPhoneShiftUp.png */; };
+		0E5811ED199ABD8700CB9CC1 /* KeyboardEnIPhoneShiftUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811EF199ABD8700CB9CC1 /* KeyboardEnIPhoneShiftUp.png */; };
+		0E5811F0199ABD8900CB9CC1 /* KeyboardEnIPhoneShiftDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811F2199ABD8900CB9CC1 /* KeyboardEnIPhoneShiftDown.png */; };
+		0E5811F3199ABD8C00CB9CC1 /* KeyboardRuIPhoneDigits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811F5199ABD8C00CB9CC1 /* KeyboardRuIPhoneDigits.png */; };
+		0E5811F6199ABD8E00CB9CC1 /* KeyboardEnIPhoneDigits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811F8199ABD8E00CB9CC1 /* KeyboardEnIPhoneDigits.png */; };
+		0E5811F9199ABD9100CB9CC1 /* KeyboardRuIPhoneSharp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811FB199ABD9100CB9CC1 /* KeyboardRuIPhoneSharp.png */; };
+		0E5811FC199ABD9300CB9CC1 /* KeyboardEnIPhoneSharp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5811FE199ABD9300CB9CC1 /* KeyboardEnIPhoneSharp.png */; };
+		0E5811FF199ABD9500CB9CC1 /* KeyboardIPhoneEn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E581201199ABD9500CB9CC1 /* KeyboardIPhoneEn.png */; };
+		0E581202199ABD9700CB9CC1 /* KeyboardIPhoneRu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E581204199ABD9700CB9CC1 /* KeyboardIPhoneRu.png */; };
+		0E581205199ABDA000CB9CC1 /* UIEyeKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E581207199ABDA000CB9CC1 /* UIEyeKeyboardView.xib */; };
+		0E581208199ABDA400CB9CC1 /* UIEyeKeyboardViewIPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E58120A199ABDA400CB9CC1 /* UIEyeKeyboardViewIPhone.xib */; };
+		0E581227199ABE5A00CB9CC1 /* UIEyeKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E581223199ABE5A00CB9CC1 /* UIEyeKeyboardView.h */; };
+		0E581228199ABE5A00CB9CC1 /* UIEyeKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581224199ABE5A00CB9CC1 /* UIEyeKeyboardView.m */; };
+		0E581229199ABE5A00CB9CC1 /* UIEyeKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E581225199ABE5A00CB9CC1 /* UIEyeKeyboard.h */; };
+		0E58122A199ABE5A00CB9CC1 /* UIEyeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581226199ABE5A00CB9CC1 /* UIEyeKeyboard.m */; };
+		0E58122E199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E58122C199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.h */; };
+		0E58122F199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E58122D199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.m */; };
+		0E581239199AFA2100CB9CC1 /* UIEyeKeyboard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E581225199ABE5A00CB9CC1 /* UIEyeKeyboard.h */; };
+		0EC8FC3F1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC8FC3D1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h */; };
+		0EC8FC401999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC3E1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.m */; };
+		0EC8FC801999BDF300ACA902 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC7F1999BDF300ACA902 /* CoreMedia.framework */; };
+		0EC8FC811999BE0F00ACA902 /* UIViewController+UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0EC8FC3D1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h */; };
+		0ECBFEAD199FDB1E00815BF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECBFEAC199FDB1E00815BF3 /* QuartzCore.framework */; };
+		0ECC3CA0199BF405002464E0 /* UITextField+UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECC3C9E199BF405002464E0 /* UITextField+UIFaceGestureKit.h */; };
+		0ECC3CA1199BF405002464E0 /* UITextField+UIFaceGestureKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC3C9F199BF405002464E0 /* UITextField+UIFaceGestureKit.m */; };
+		0ECDD462199C19B1008DE2EF /* UITextField+UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0ECC3C9E199BF405002464E0 /* UITextField+UIFaceGestureKit.h */; };
+		0ECDD464199C434E008DE2EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECDD463199C434E008DE2EF /* AudioToolbox.framework */; };
+		0ECE5B1E19A2579D00D6EF17 /* UIScrollView+UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0ED0B44719A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h */; };
+		0ED0B44919A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED0B44719A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h */; };
+		0ED0B44A19A02C540021CC69 /* UIScrollView+UIFaceGestureKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0B44819A02C540021CC69 /* UIScrollView+UIFaceGestureKit.m */; };
+		8B2127BE199229BA00D63A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2127BD199229BA00D63A5A /* Foundation.framework */; };
+		8B2127CC199229BA00D63A5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2127CB199229BA00D63A5A /* XCTest.framework */; };
+		8B2127CD199229BA00D63A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2127BD199229BA00D63A5A /* Foundation.framework */; };
+		8B2127D2199229BA00D63A5A /* libUIFaceGestureKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2127BA199229BA00D63A5A /* libUIFaceGestureKit.a */; };
+		8B2127D8199229BA00D63A5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B2127D6199229BA00D63A5A /* InfoPlist.strings */; };
+		8B2127DA199229BA00D63A5A /* UIFaceGestureKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2127D9199229BA00D63A5A /* UIFaceGestureKitTests.m */; };
+		8B30F72D19990CD80077F16B /* UIFaceGestureSmileDetected.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA12419924FBD00E5E85C /* UIFaceGestureSmileDetected.h */; };
+		8B30F72E19990CD80077F16B /* UIFaceGestureSmileLost.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1401992564A00E5E85C /* UIFaceGestureSmileLost.h */; };
+		8B5BA0FD19922C1600E5E85C /* AVVideoSteamSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA0FC19922C1600E5E85C /* AVVideoSteamSource.m */; };
+		8B5BA10119922C2700E5E85C /* AVVideoSteamSourceSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA10019922C2700E5E85C /* AVVideoSteamSourceSettings.m */; };
+		8B5BA10319922C5500E5E85C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BA10219922C5500E5E85C /* CoreImage.framework */; };
+		8B5BA10519922C6F00E5E85C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BA10419922C6F00E5E85C /* UIKit.framework */; };
+		8B5BA10719922C7600E5E85C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BA10619922C7600E5E85C /* AVFoundation.framework */; };
+		8B5BA10E19923CFA00E5E85C /* UIFaceGestureDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA10D19923CFA00E5E85C /* UIFaceGestureDetector.m */; };
+		8B5BA11219923D5A00E5E85C /* UIFaceGestureDetectorSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA11119923D5A00E5E85C /* UIFaceGestureDetectorSettings.m */; };
+		8B5BA11619923D6600E5E85C /* UIFaceGestureSubscriberDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA11519923D6600E5E85C /* UIFaceGestureSubscriberDecorator.m */; };
+		8B5BA11D19924CCF00E5E85C /* UIFaceGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA11C19924CCF00E5E85C /* UIFaceGesture.m */; };
+		8B5BA12619924FBD00E5E85C /* UIFaceGestureSmileDetected.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA12519924FBD00E5E85C /* UIFaceGestureSmileDetected.m */; };
+		8B5BA1291992503100E5E85C /* UIFaceGestureTimed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1281992503100E5E85C /* UIFaceGestureTimed.m */; };
+		8B5BA12D1992521700E5E85C /* UIFaceGestureEyesDetected.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA12C1992521700E5E85C /* UIFaceGestureEyesDetected.m */; };
+		8B5BA1331992538200E5E85C /* UIFaceGestureRightEyeDidOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1321992538200E5E85C /* UIFaceGestureRightEyeDidOpen.m */; };
+		8B5BA1361992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1351992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.m */; };
+		8B5BA1391992550700E5E85C /* UIFaceGestureBothEyesDidClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1381992550700E5E85C /* UIFaceGestureBothEyesDidClose.m */; };
+		8B5BA13C1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA13B1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.m */; };
+		8B5BA13F199255C600E5E85C /* UIFaceGestureEyesLost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA13E199255C600E5E85C /* UIFaceGestureEyesLost.m */; };
+		8B5BA1421992564A00E5E85C /* UIFaceGestureSmileLost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1411992564A00E5E85C /* UIFaceGestureSmileLost.m */; };
+		8B5BA145199256E500E5E85C /* UIFaceGestureRightEyeDidClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA144199256E500E5E85C /* UIFaceGestureRightEyeDidClose.m */; };
+		8B5BA1481992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1471992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.m */; };
+		8B5BA1521992590200E5E85C /* UIFaceGestureEyesSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1511992590200E5E85C /* UIFaceGestureEyesSettings.m */; };
+		8B5BA1551992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1541992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.m */; };
+		8B5BA15819925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA15719925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.m */; };
+		8B5BA15B19925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA15A19925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.m */; };
+		8B5BA16119925B9600E5E85C /* UIFaceGestureContinous.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA16019925B9600E5E85C /* UIFaceGestureContinous.m */; };
+		8B5BA16419925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA16319925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.m */; };
+		8B5BA16719925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA16619925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.m */; };
+		8B5BA16A1992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1691992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.m */; };
+		8B5BA16E199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA16D199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.m */; };
+		8B5BA1711992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA1701992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.m */; };
+		8B5BA17719926DC300E5E85C /* UIFaceGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA11B19924CCF00E5E85C /* UIFaceGesture.h */; };
+		8B5BA17819926DC300E5E85C /* UIFaceGestureTimed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1271992503100E5E85C /* UIFaceGestureTimed.h */; };
+		8B5BA17919926DC300E5E85C /* UIFaceGestureContinous.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA15F19925B9600E5E85C /* UIFaceGestureContinous.h */; };
+		8B5BA17A19926DC300E5E85C /* UIFaceGestureKitEyeGestures.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA17319926CD400E5E85C /* UIFaceGestureKitEyeGestures.h */; };
+		8B5BA17B19926DC300E5E85C /* UIFaceGestureEyesDetected.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA12B1992521700E5E85C /* UIFaceGestureEyesDetected.h */; };
+		8B5BA17C19926DC300E5E85C /* UIFaceGestureEyesLost.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA13D199255C600E5E85C /* UIFaceGestureEyesLost.h */; };
+		8B5BA17D19926DC300E5E85C /* UIFaceGestureLeftEyeIsClosed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA16219925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.h */; };
+		8B5BA17E19926DC300E5E85C /* UIFaceGestureLeftEyeDidWink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1531992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.h */; };
+		8B5BA17F19926DC300E5E85C /* UIFaceGestureLeftEyeDidOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1341992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.h */; };
+		8B5BA18019926DC300E5E85C /* UIFaceGestureLeftEyeDidClose.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1461992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.h */; };
+		8B5BA18119926DC300E5E85C /* UIFaceGestureBothEyesAreClosed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1681992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.h */; };
+		8B5BA18219926DC300E5E85C /* UIFaceGestureBothEyesDidWink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA15919925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.h */; };
+		8B5BA18319926DC300E5E85C /* UIFaceGestureBothEyesDidClose.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1371992550700E5E85C /* UIFaceGestureBothEyesDidClose.h */; };
+		8B5BA18419926DC300E5E85C /* UIFaceGestureBothEyesDidOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA13A1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.h */; };
+		8B5BA18519926DC300E5E85C /* UIFaceGestureRightEyeIsClosed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA16519925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.h */; };
+		8B5BA18619926DC300E5E85C /* UIFaceGestureRightEyeDidWink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA15619925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.h */; };
+		8B5BA18719926DC300E5E85C /* UIFaceGestureRightEyeDidOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1311992538200E5E85C /* UIFaceGestureRightEyeDidOpen.h */; };
+		8B5BA18819926DC300E5E85C /* UIFaceGestureRightEyeDidClose.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA143199256E500E5E85C /* UIFaceGestureRightEyeDidClose.h */; };
+		8B5BA18919926DC300E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA16F1992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h */; };
+		8B5BA18A19926DC300E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA16C199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h */; };
+		8B5BA18B19926DE000E5E85C /* UIFaceGesture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA11B19924CCF00E5E85C /* UIFaceGesture.h */; };
+		8B5BA18C19926DE000E5E85C /* UIFaceGestureTimed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1271992503100E5E85C /* UIFaceGestureTimed.h */; };
+		8B5BA18D19926DE000E5E85C /* UIFaceGestureContinous.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA15F19925B9600E5E85C /* UIFaceGestureContinous.h */; };
+		8B5BA18E19926DE000E5E85C /* UIFaceGestureKitEyeGestures.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA17319926CD400E5E85C /* UIFaceGestureKitEyeGestures.h */; };
+		8B5BA18F19926DE000E5E85C /* UIFaceGestureEyesDetected.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA12B1992521700E5E85C /* UIFaceGestureEyesDetected.h */; };
+		8B5BA19019926DE000E5E85C /* UIFaceGestureEyesLost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA13D199255C600E5E85C /* UIFaceGestureEyesLost.h */; };
+		8B5BA19119926DE000E5E85C /* UIFaceGestureLeftEyeIsClosed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA16219925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.h */; };
+		8B5BA19219926DE000E5E85C /* UIFaceGestureLeftEyeDidWink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1531992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.h */; };
+		8B5BA19319926DE000E5E85C /* UIFaceGestureLeftEyeDidOpen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1341992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.h */; };
+		8B5BA19419926DE000E5E85C /* UIFaceGestureLeftEyeDidClose.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1461992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.h */; };
+		8B5BA19519926DE000E5E85C /* UIFaceGestureBothEyesAreClosed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1681992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.h */; };
+		8B5BA19619926DE000E5E85C /* UIFaceGestureBothEyesDidWink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA15919925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.h */; };
+		8B5BA19719926DE000E5E85C /* UIFaceGestureBothEyesDidClose.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1371992550700E5E85C /* UIFaceGestureBothEyesDidClose.h */; };
+		8B5BA19819926DE000E5E85C /* UIFaceGestureBothEyesDidOpen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA13A1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.h */; };
+		8B5BA19919926DE100E5E85C /* UIFaceGestureRightEyeIsClosed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA16519925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.h */; };
+		8B5BA19A19926DE100E5E85C /* UIFaceGestureRightEyeDidWink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA15619925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.h */; };
+		8B5BA19B19926DE100E5E85C /* UIFaceGestureRightEyeDidOpen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1311992538200E5E85C /* UIFaceGestureRightEyeDidOpen.h */; };
+		8B5BA19C19926DE100E5E85C /* UIFaceGestureRightEyeDidClose.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA143199256E500E5E85C /* UIFaceGestureRightEyeDidClose.h */; };
+		8B5BA19D19926DE100E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA16F1992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h */; };
+		8B5BA19E19926DE100E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA16C199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h */; };
+		8B5BA1A119926E2000E5E85C /* UIFaceGestureKitSmileGestures.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA19F19926E2000E5E85C /* UIFaceGestureKitSmileGestures.h */; };
+		8B5BA1A519926E4B00E5E85C /* UIFaceGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BA1A319926E4B00E5E85C /* UIFaceGestureKit.h */; };
+		8B5BA1A719926E8F00E5E85C /* UIFaceGestureKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1A319926E4B00E5E85C /* UIFaceGestureKit.h */; };
+		8B5BA1A819926E9800E5E85C /* UIFaceGestureKitSmileGestures.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA19F19926E2000E5E85C /* UIFaceGestureKitSmileGestures.h */; };
+		8B5BA1A919926E9800E5E85C /* UIFaceGestureSmileDetected.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA12419924FBD00E5E85C /* UIFaceGestureSmileDetected.h */; };
+		8B5BA1AA19926E9800E5E85C /* UIFaceGestureSmileLost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B5BA1401992564A00E5E85C /* UIFaceGestureSmileLost.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E581235199AD54500CB9CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2127B2199229BA00D63A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E581184199AB41D00CB9CC1;
+			remoteInfo = UIFaceGestureKitBundle;
+		};
+		8B2127D0199229BA00D63A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2127B2199229BA00D63A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2127B9199229BA00D63A5A;
+			remoteInfo = UIFaceGustureKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B2127B8199229BA00D63A5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0ECE5B1E19A2579D00D6EF17 /* UIScrollView+UIFaceGestureKit.h in CopyFiles */,
+				0ECDD462199C19B1008DE2EF /* UITextField+UIFaceGestureKit.h in CopyFiles */,
+				0E581239199AFA2100CB9CC1 /* UIEyeKeyboard.h in CopyFiles */,
+				0E581106199A810200CB9CC1 /* UITableView+UIFaceGestureKit.h in CopyFiles */,
+				0EC8FC811999BE0F00ACA902 /* UIViewController+UIFaceGestureKit.h in CopyFiles */,
+				0E58110B199A9B2400CB9CC1 /* UICollectionView+UIFaceGestureKit.h in CopyFiles */,
+				8B5BA1A819926E9800E5E85C /* UIFaceGestureKitSmileGestures.h in CopyFiles */,
+				8B5BA1A919926E9800E5E85C /* UIFaceGestureSmileDetected.h in CopyFiles */,
+				8B5BA1AA19926E9800E5E85C /* UIFaceGestureSmileLost.h in CopyFiles */,
+				8B5BA1A719926E8F00E5E85C /* UIFaceGestureKit.h in CopyFiles */,
+				8B5BA18B19926DE000E5E85C /* UIFaceGesture.h in CopyFiles */,
+				8B5BA18C19926DE000E5E85C /* UIFaceGestureTimed.h in CopyFiles */,
+				8B5BA18D19926DE000E5E85C /* UIFaceGestureContinous.h in CopyFiles */,
+				8B5BA18E19926DE000E5E85C /* UIFaceGestureKitEyeGestures.h in CopyFiles */,
+				8B5BA18F19926DE000E5E85C /* UIFaceGestureEyesDetected.h in CopyFiles */,
+				8B5BA19019926DE000E5E85C /* UIFaceGestureEyesLost.h in CopyFiles */,
+				8B5BA19119926DE000E5E85C /* UIFaceGestureLeftEyeIsClosed.h in CopyFiles */,
+				8B5BA19219926DE000E5E85C /* UIFaceGestureLeftEyeDidWink.h in CopyFiles */,
+				8B5BA19319926DE000E5E85C /* UIFaceGestureLeftEyeDidOpen.h in CopyFiles */,
+				8B5BA19419926DE000E5E85C /* UIFaceGestureLeftEyeDidClose.h in CopyFiles */,
+				8B5BA19519926DE000E5E85C /* UIFaceGestureBothEyesAreClosed.h in CopyFiles */,
+				8B5BA19619926DE000E5E85C /* UIFaceGestureBothEyesDidWink.h in CopyFiles */,
+				8B5BA19719926DE000E5E85C /* UIFaceGestureBothEyesDidClose.h in CopyFiles */,
+				8B5BA19819926DE000E5E85C /* UIFaceGestureBothEyesDidOpen.h in CopyFiles */,
+				8B5BA19919926DE100E5E85C /* UIFaceGestureRightEyeIsClosed.h in CopyFiles */,
+				8B5BA19A19926DE100E5E85C /* UIFaceGestureRightEyeDidWink.h in CopyFiles */,
+				8B5BA19B19926DE100E5E85C /* UIFaceGestureRightEyeDidOpen.h in CopyFiles */,
+				8B5BA19C19926DE100E5E85C /* UIFaceGestureRightEyeDidClose.h in CopyFiles */,
+				8B5BA19D19926DE100E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h in CopyFiles */,
+				8B5BA19E19926DE100E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E581102199A58FA00CB9CC1 /* UITableView+UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UIFaceGestureKit.h"; sourceTree = "<group>"; };
+		0E581103199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UIFaceGestureKit.m"; sourceTree = "<group>"; };
+		0E581107199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+UIFaceGestureKit.h"; sourceTree = "<group>"; };
+		0E581108199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UIFaceGestureKit.m"; sourceTree = "<group>"; };
+		0E581185199AB41D00CB9CC1 /* UIFaceGestureKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFaceGestureKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E581188199AB41D00CB9CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5811C7199ABD6000CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/KeyboardCharacters.strings; sourceTree = "<group>"; };
+		0E5811CA199ABD7000CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardShiftUp.png; sourceTree = "<group>"; };
+		0E5811CD199ABD7200CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardShiftDown.png; sourceTree = "<group>"; };
+		0E5811D0199ABD7400CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRightShiftDown.png; sourceTree = "<group>"; };
+		0E5811D3199ABD7600CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRightShiftUp.png; sourceTree = "<group>"; };
+		0E5811D6199ABD7800CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnDigits.png; sourceTree = "<group>"; };
+		0E5811D9199ABD7900CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuDigits.png; sourceTree = "<group>"; };
+		0E5811DC199ABD7B00CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnSharp.png; sourceTree = "<group>"; };
+		0E5811DF199ABD7D00CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuSharp.png; sourceTree = "<group>"; };
+		0E5811E2199ABD7F00CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEn.png; sourceTree = "<group>"; };
+		0E5811E5199ABD8000CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRu.png; sourceTree = "<group>"; };
+		0E5811E8199ABD8300CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuIPhoneShiftDown.png; sourceTree = "<group>"; };
+		0E5811EB199ABD8500CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuIPhoneShiftUp.png; sourceTree = "<group>"; };
+		0E5811EE199ABD8700CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnIPhoneShiftUp.png; sourceTree = "<group>"; };
+		0E5811F1199ABD8900CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnIPhoneShiftDown.png; sourceTree = "<group>"; };
+		0E5811F4199ABD8C00CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuIPhoneDigits.png; sourceTree = "<group>"; };
+		0E5811F7199ABD8E00CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnIPhoneDigits.png; sourceTree = "<group>"; };
+		0E5811FA199ABD9100CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardRuIPhoneSharp.png; sourceTree = "<group>"; };
+		0E5811FD199ABD9300CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardEnIPhoneSharp.png; sourceTree = "<group>"; };
+		0E581200199ABD9500CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardIPhoneEn.png; sourceTree = "<group>"; };
+		0E581203199ABD9700CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/KeyboardIPhoneRu.png; sourceTree = "<group>"; };
+		0E581206199ABDA000CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIEyeKeyboardView.xib; sourceTree = "<group>"; };
+		0E581209199ABDA400CB9CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIEyeKeyboardViewIPhone.xib; sourceTree = "<group>"; };
+		0E58120B199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E58120C199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/KeyboardCharacters.strings; sourceTree = "<group>"; };
+		0E58120D199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardShiftUp.png; sourceTree = "<group>"; };
+		0E58120E199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardShiftDown.png; sourceTree = "<group>"; };
+		0E58120F199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRightShiftDown.png; sourceTree = "<group>"; };
+		0E581210199ABDC300CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRightShiftUp.png; sourceTree = "<group>"; };
+		0E581211199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnDigits.png; sourceTree = "<group>"; };
+		0E581212199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuDigits.png; sourceTree = "<group>"; };
+		0E581213199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnSharp.png; sourceTree = "<group>"; };
+		0E581214199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuSharp.png; sourceTree = "<group>"; };
+		0E581215199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEn.png; sourceTree = "<group>"; };
+		0E581216199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRu.png; sourceTree = "<group>"; };
+		0E581217199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuIPhoneShiftDown.png; sourceTree = "<group>"; };
+		0E581218199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuIPhoneShiftUp.png; sourceTree = "<group>"; };
+		0E581219199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnIPhoneShiftUp.png; sourceTree = "<group>"; };
+		0E58121A199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnIPhoneShiftDown.png; sourceTree = "<group>"; };
+		0E58121B199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuIPhoneDigits.png; sourceTree = "<group>"; };
+		0E58121C199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnIPhoneDigits.png; sourceTree = "<group>"; };
+		0E58121D199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardRuIPhoneSharp.png; sourceTree = "<group>"; };
+		0E58121E199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardEnIPhoneSharp.png; sourceTree = "<group>"; };
+		0E58121F199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardIPhoneEn.png; sourceTree = "<group>"; };
+		0E581220199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = ru.lproj/KeyboardIPhoneRu.png; sourceTree = "<group>"; };
+		0E581221199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/UIEyeKeyboardView.xib; sourceTree = "<group>"; };
+		0E581222199ABDC400CB9CC1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/UIEyeKeyboardViewIPhone.xib; sourceTree = "<group>"; };
+		0E581223199ABE5A00CB9CC1 /* UIEyeKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEyeKeyboardView.h; sourceTree = "<group>"; };
+		0E581224199ABE5A00CB9CC1 /* UIEyeKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEyeKeyboardView.m; sourceTree = "<group>"; };
+		0E581225199ABE5A00CB9CC1 /* UIEyeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIEyeKeyboard.h; sourceTree = "<group>"; };
+		0E581226199ABE5A00CB9CC1 /* UIEyeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIEyeKeyboard.m; sourceTree = "<group>"; };
+		0E58122C199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureKitBundle.h; sourceTree = "<group>"; };
+		0E58122D199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureKitBundle.m; sourceTree = "<group>"; };
+		0EC8FC3D1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIFaceGestureKit.h"; sourceTree = "<group>"; };
+		0EC8FC3E1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIFaceGestureKit.m"; sourceTree = "<group>"; };
+		0EC8FC7F1999BDF300ACA902 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0ECBFEAC199FDB1E00815BF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0ECC3C9E199BF405002464E0 /* UITextField+UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+UIFaceGestureKit.h"; sourceTree = "<group>"; };
+		0ECC3C9F199BF405002464E0 /* UITextField+UIFaceGestureKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+UIFaceGestureKit.m"; sourceTree = "<group>"; };
+		0ECDD463199C434E008DE2EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0ED0B44719A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UIFaceGestureKit.h"; sourceTree = "<group>"; };
+		0ED0B44819A02C540021CC69 /* UIScrollView+UIFaceGestureKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UIFaceGestureKit.m"; sourceTree = "<group>"; };
+		8B2127BA199229BA00D63A5A /* libUIFaceGestureKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIFaceGestureKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2127BD199229BA00D63A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B2127C1199229BA00D63A5A /* UIFaceGestureKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFaceGestureKit-Prefix.pch"; sourceTree = "<group>"; };
+		8B2127CA199229BA00D63A5A /* UIFaceGestureKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFaceGestureKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2127CB199229BA00D63A5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8B2127D5199229BA00D63A5A /* UIFaceGestureKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIFaceGestureKitTests-Info.plist"; sourceTree = "<group>"; };
+		8B2127D7199229BA00D63A5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B2127D9199229BA00D63A5A /* UIFaceGestureKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureKitTests.m; sourceTree = "<group>"; };
+		8B5BA0FB19922C1600E5E85C /* AVVideoSteamSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVideoSteamSource.h; sourceTree = "<group>"; };
+		8B5BA0FC19922C1600E5E85C /* AVVideoSteamSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVideoSteamSource.m; sourceTree = "<group>"; };
+		8B5BA0FF19922C2700E5E85C /* AVVideoSteamSourceSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVideoSteamSourceSettings.h; sourceTree = "<group>"; };
+		8B5BA10019922C2700E5E85C /* AVVideoSteamSourceSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVideoSteamSourceSettings.m; sourceTree = "<group>"; };
+		8B5BA10219922C5500E5E85C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8B5BA10419922C6F00E5E85C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B5BA10619922C7600E5E85C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B5BA1081992328800E5E85C /* UIFaceGestureKitTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureKitTrace.h; sourceTree = "<group>"; };
+		8B5BA10C19923CFA00E5E85C /* UIFaceGestureDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureDetector.h; sourceTree = "<group>"; };
+		8B5BA10D19923CFA00E5E85C /* UIFaceGestureDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureDetector.m; sourceTree = "<group>"; };
+		8B5BA11019923D5A00E5E85C /* UIFaceGestureDetectorSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureDetectorSettings.h; sourceTree = "<group>"; };
+		8B5BA11119923D5A00E5E85C /* UIFaceGestureDetectorSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureDetectorSettings.m; sourceTree = "<group>"; };
+		8B5BA11419923D6600E5E85C /* UIFaceGestureSubscriberDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureSubscriberDecorator.h; sourceTree = "<group>"; };
+		8B5BA11519923D6600E5E85C /* UIFaceGestureSubscriberDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureSubscriberDecorator.m; sourceTree = "<group>"; };
+		8B5BA11B19924CCF00E5E85C /* UIFaceGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGesture.h; sourceTree = "<group>"; };
+		8B5BA11C19924CCF00E5E85C /* UIFaceGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGesture.m; sourceTree = "<group>"; };
+		8B5BA12419924FBD00E5E85C /* UIFaceGestureSmileDetected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureSmileDetected.h; sourceTree = "<group>"; };
+		8B5BA12519924FBD00E5E85C /* UIFaceGestureSmileDetected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureSmileDetected.m; sourceTree = "<group>"; };
+		8B5BA1271992503100E5E85C /* UIFaceGestureTimed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureTimed.h; sourceTree = "<group>"; };
+		8B5BA1281992503100E5E85C /* UIFaceGestureTimed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureTimed.m; sourceTree = "<group>"; };
+		8B5BA12B1992521700E5E85C /* UIFaceGestureEyesDetected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureEyesDetected.h; sourceTree = "<group>"; };
+		8B5BA12C1992521700E5E85C /* UIFaceGestureEyesDetected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureEyesDetected.m; sourceTree = "<group>"; };
+		8B5BA1311992538200E5E85C /* UIFaceGestureRightEyeDidOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureRightEyeDidOpen.h; sourceTree = "<group>"; };
+		8B5BA1321992538200E5E85C /* UIFaceGestureRightEyeDidOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureRightEyeDidOpen.m; sourceTree = "<group>"; };
+		8B5BA1341992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureLeftEyeDidOpen.h; sourceTree = "<group>"; };
+		8B5BA1351992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureLeftEyeDidOpen.m; sourceTree = "<group>"; };
+		8B5BA1371992550700E5E85C /* UIFaceGestureBothEyesDidClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesDidClose.h; sourceTree = "<group>"; };
+		8B5BA1381992550700E5E85C /* UIFaceGestureBothEyesDidClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesDidClose.m; sourceTree = "<group>"; };
+		8B5BA13A1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesDidOpen.h; sourceTree = "<group>"; };
+		8B5BA13B1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesDidOpen.m; sourceTree = "<group>"; };
+		8B5BA13D199255C600E5E85C /* UIFaceGestureEyesLost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureEyesLost.h; sourceTree = "<group>"; };
+		8B5BA13E199255C600E5E85C /* UIFaceGestureEyesLost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureEyesLost.m; sourceTree = "<group>"; };
+		8B5BA1401992564A00E5E85C /* UIFaceGestureSmileLost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureSmileLost.h; sourceTree = "<group>"; };
+		8B5BA1411992564A00E5E85C /* UIFaceGestureSmileLost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureSmileLost.m; sourceTree = "<group>"; };
+		8B5BA143199256E500E5E85C /* UIFaceGestureRightEyeDidClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureRightEyeDidClose.h; sourceTree = "<group>"; };
+		8B5BA144199256E500E5E85C /* UIFaceGestureRightEyeDidClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureRightEyeDidClose.m; sourceTree = "<group>"; };
+		8B5BA1461992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureLeftEyeDidClose.h; sourceTree = "<group>"; };
+		8B5BA1471992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureLeftEyeDidClose.m; sourceTree = "<group>"; };
+		8B5BA1501992590200E5E85C /* UIFaceGestureEyesSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureEyesSettings.h; sourceTree = "<group>"; };
+		8B5BA1511992590200E5E85C /* UIFaceGestureEyesSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureEyesSettings.m; sourceTree = "<group>"; };
+		8B5BA1531992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureLeftEyeDidWink.h; sourceTree = "<group>"; };
+		8B5BA1541992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureLeftEyeDidWink.m; sourceTree = "<group>"; };
+		8B5BA15619925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureRightEyeDidWink.h; sourceTree = "<group>"; };
+		8B5BA15719925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureRightEyeDidWink.m; sourceTree = "<group>"; };
+		8B5BA15919925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesDidWink.h; sourceTree = "<group>"; };
+		8B5BA15A19925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesDidWink.m; sourceTree = "<group>"; };
+		8B5BA15F19925B9600E5E85C /* UIFaceGestureContinous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureContinous.h; sourceTree = "<group>"; };
+		8B5BA16019925B9600E5E85C /* UIFaceGestureContinous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureContinous.m; sourceTree = "<group>"; };
+		8B5BA16219925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureLeftEyeIsClosed.h; sourceTree = "<group>"; };
+		8B5BA16319925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureLeftEyeIsClosed.m; sourceTree = "<group>"; };
+		8B5BA16519925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureRightEyeIsClosed.h; sourceTree = "<group>"; };
+		8B5BA16619925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureRightEyeIsClosed.m; sourceTree = "<group>"; };
+		8B5BA1681992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesAreClosed.h; sourceTree = "<group>"; };
+		8B5BA1691992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesAreClosed.m; sourceTree = "<group>"; };
+		8B5BA16C199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesClosedThenLeftDidOpen.h; sourceTree = "<group>"; };
+		8B5BA16D199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesClosedThenLeftDidOpen.m; sourceTree = "<group>"; };
+		8B5BA16F1992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureBothEyesClosedThenRightDidOpen.h; sourceTree = "<group>"; };
+		8B5BA1701992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureBothEyesClosedThenRightDidOpen.m; sourceTree = "<group>"; };
+		8B5BA17319926CD400E5E85C /* UIFaceGestureKitEyeGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureKitEyeGestures.h; sourceTree = "<group>"; };
+		8B5BA19F19926E2000E5E85C /* UIFaceGestureKitSmileGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureKitSmileGestures.h; sourceTree = "<group>"; };
+		8B5BA1A319926E4B00E5E85C /* UIFaceGestureKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFaceGestureKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E581182199AB41D00CB9CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2127B7199229BA00D63A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECBFEAD199FDB1E00815BF3 /* QuartzCore.framework in Frameworks */,
+				0ECDD464199C434E008DE2EF /* AudioToolbox.framework in Frameworks */,
+				0EC8FC801999BDF300ACA902 /* CoreMedia.framework in Frameworks */,
+				8B5BA10719922C7600E5E85C /* AVFoundation.framework in Frameworks */,
+				8B5BA10519922C6F00E5E85C /* UIKit.framework in Frameworks */,
+				8B5BA10319922C5500E5E85C /* CoreImage.framework in Frameworks */,
+				8B2127BE199229BA00D63A5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2127C7199229BA00D63A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2127CC199229BA00D63A5A /* XCTest.framework in Frameworks */,
+				8B2127CD199229BA00D63A5A /* Foundation.framework in Frameworks */,
+				8B2127D2199229BA00D63A5A /* libUIFaceGestureKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E581113199AABAE00CB9CC1 /* UIEyeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E581223199ABE5A00CB9CC1 /* UIEyeKeyboardView.h */,
+				0E581224199ABE5A00CB9CC1 /* UIEyeKeyboardView.m */,
+				0E581225199ABE5A00CB9CC1 /* UIEyeKeyboard.h */,
+				0E581226199ABE5A00CB9CC1 /* UIEyeKeyboard.m */,
+			);
+			name = UIEyeKeyboard;
+			sourceTree = "<group>";
+		};
+		0E581114199AABBF00CB9CC1 /* UIViewCategories */ = {
+			isa = PBXGroup;
+			children = (
+				0E581102199A58FA00CB9CC1 /* UITableView+UIFaceGestureKit.h */,
+				0E581103199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.m */,
+				0E581107199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h */,
+				0E581108199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.m */,
+				0ECC3C9E199BF405002464E0 /* UITextField+UIFaceGestureKit.h */,
+				0ECC3C9F199BF405002464E0 /* UITextField+UIFaceGestureKit.m */,
+				0ED0B44719A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h */,
+				0ED0B44819A02C540021CC69 /* UIScrollView+UIFaceGestureKit.m */,
+			);
+			name = UIViewCategories;
+			sourceTree = "<group>";
+		};
+		0E581186199AB41D00CB9CC1 /* UIFaceGestureKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				0E58118C199ABC7000CB9CC1 /* UIEyeKeyboard */,
+				0E581187199AB41D00CB9CC1 /* Supporting Files */,
+			);
+			path = UIFaceGestureKitBundle;
+			sourceTree = "<group>";
+		};
+		0E581187199AB41D00CB9CC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E581188199AB41D00CB9CC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E58118C199ABC7000CB9CC1 /* UIEyeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811C3199ABD3D00CB9CC1 /* Strings */,
+				0E58118E199ABC8400CB9CC1 /* Images */,
+				0E58118D199ABC7F00CB9CC1 /* Xib */,
+			);
+			name = UIEyeKeyboard;
+			sourceTree = "<group>";
+		};
+		0E58118D199ABC7F00CB9CC1 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				0E581207199ABDA000CB9CC1 /* UIEyeKeyboardView.xib */,
+				0E58120A199ABDA400CB9CC1 /* UIEyeKeyboardViewIPhone.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		0E58118E199ABC8400CB9CC1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E581190199ABCA500CB9CC1 /* iPad */,
+				0E58118F199ABC9F00CB9CC1 /* iPhone */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0E58118F199ABC9F00CB9CC1 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811A7199ABCD100CB9CC1 /* Shift */,
+				0E5811A6199ABCCC00CB9CC1 /* Digits */,
+				0E5811A5199ABCC700CB9CC1 /* Sharp */,
+				0E581201199ABD9500CB9CC1 /* KeyboardIPhoneEn.png */,
+				0E581204199ABD9700CB9CC1 /* KeyboardIPhoneRu.png */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		0E581190199ABCA500CB9CC1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811AA199ABCFF00CB9CC1 /* Shift */,
+				0E5811A9199ABCFB00CB9CC1 /* Digits */,
+				0E5811A8199ABCF700CB9CC1 /* Sharp */,
+				0E5811E3199ABD7F00CB9CC1 /* KeyboardEn.png */,
+				0E5811E6199ABD8000CB9CC1 /* KeyboardRu.png */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		0E5811A5199ABCC700CB9CC1 /* Sharp */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811FB199ABD9100CB9CC1 /* KeyboardRuIPhoneSharp.png */,
+				0E5811FE199ABD9300CB9CC1 /* KeyboardEnIPhoneSharp.png */,
+			);
+			name = Sharp;
+			sourceTree = "<group>";
+		};
+		0E5811A6199ABCCC00CB9CC1 /* Digits */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811F5199ABD8C00CB9CC1 /* KeyboardRuIPhoneDigits.png */,
+				0E5811F8199ABD8E00CB9CC1 /* KeyboardEnIPhoneDigits.png */,
+			);
+			name = Digits;
+			sourceTree = "<group>";
+		};
+		0E5811A7199ABCD100CB9CC1 /* Shift */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811E9199ABD8300CB9CC1 /* KeyboardRuIPhoneShiftDown.png */,
+				0E5811EC199ABD8500CB9CC1 /* KeyboardRuIPhoneShiftUp.png */,
+				0E5811EF199ABD8700CB9CC1 /* KeyboardEnIPhoneShiftUp.png */,
+				0E5811F2199ABD8900CB9CC1 /* KeyboardEnIPhoneShiftDown.png */,
+			);
+			name = Shift;
+			sourceTree = "<group>";
+		};
+		0E5811A8199ABCF700CB9CC1 /* Sharp */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811DD199ABD7B00CB9CC1 /* KeyboardEnSharp.png */,
+				0E5811E0199ABD7D00CB9CC1 /* KeyboardRuSharp.png */,
+			);
+			name = Sharp;
+			sourceTree = "<group>";
+		};
+		0E5811A9199ABCFB00CB9CC1 /* Digits */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811D7199ABD7800CB9CC1 /* KeyboardEnDigits.png */,
+				0E5811DA199ABD7900CB9CC1 /* KeyboardRuDigits.png */,
+			);
+			name = Digits;
+			sourceTree = "<group>";
+		};
+		0E5811AA199ABCFF00CB9CC1 /* Shift */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811CB199ABD7000CB9CC1 /* KeyboardShiftUp.png */,
+				0E5811CE199ABD7200CB9CC1 /* KeyboardShiftDown.png */,
+				0E5811D1199ABD7400CB9CC1 /* KeyboardRightShiftDown.png */,
+				0E5811D4199ABD7600CB9CC1 /* KeyboardRightShiftUp.png */,
+			);
+			name = Shift;
+			sourceTree = "<group>";
+		};
+		0E5811C3199ABD3D00CB9CC1 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				0E5811C8199ABD6000CB9CC1 /* KeyboardCharacters.strings */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		0E58122B199ABF9A00CB9CC1 /* BundleSupport */ = {
+			isa = PBXGroup;
+			children = (
+				0E58122C199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.h */,
+				0E58122D199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.m */,
+			);
+			name = BundleSupport;
+			sourceTree = "<group>";
+		};
+		0EC8FC3C1999BCA200ACA902 /* UIViewControllerCategories */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC3D1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h */,
+				0EC8FC3E1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.m */,
+			);
+			name = UIViewControllerCategories;
+			sourceTree = "<group>";
+		};
+		8B2127B1199229BA00D63A5A = {
+			isa = PBXGroup;
+			children = (
+				8B2127BF199229BA00D63A5A /* UIFaceGestureKit */,
+				8B2127D3199229BA00D63A5A /* UIFaceGustureKitTests */,
+				0E581186199AB41D00CB9CC1 /* UIFaceGestureKitBundle */,
+				8B2127BC199229BA00D63A5A /* Frameworks */,
+				8B2127BB199229BA00D63A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2127BB199229BA00D63A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2127BA199229BA00D63A5A /* libUIFaceGestureKit.a */,
+				8B2127CA199229BA00D63A5A /* UIFaceGestureKitTests.xctest */,
+				0E581185199AB41D00CB9CC1 /* UIFaceGestureKitBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2127BC199229BA00D63A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECBFEAC199FDB1E00815BF3 /* QuartzCore.framework */,
+				0ECDD463199C434E008DE2EF /* AudioToolbox.framework */,
+				0EC8FC7F1999BDF300ACA902 /* CoreMedia.framework */,
+				8B5BA10619922C7600E5E85C /* AVFoundation.framework */,
+				8B5BA10419922C6F00E5E85C /* UIKit.framework */,
+				8B5BA10219922C5500E5E85C /* CoreImage.framework */,
+				8B2127BD199229BA00D63A5A /* Foundation.framework */,
+				8B2127CB199229BA00D63A5A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B2127BF199229BA00D63A5A /* UIFaceGestureKit */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1A319926E4B00E5E85C /* UIFaceGestureKit.h */,
+				0EC8FC3C1999BCA200ACA902 /* UIViewControllerCategories */,
+				0E581114199AABBF00CB9CC1 /* UIViewCategories */,
+				0E581113199AABAE00CB9CC1 /* UIEyeKeyboard */,
+				8B5BA11719924C9100E5E85C /* UIFaceGestures */,
+				8B5BA10B19923CD500E5E85C /* UIFaceGesturesDetector */,
+				8B5BA0FA19922C0900E5E85C /* AVVideoStreamSource */,
+				0E58122B199ABF9A00CB9CC1 /* BundleSupport */,
+				8B2127C0199229BA00D63A5A /* Supporting Files */,
+			);
+			path = UIFaceGestureKit;
+			sourceTree = "<group>";
+		};
+		8B2127C0199229BA00D63A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2127C1199229BA00D63A5A /* UIFaceGestureKit-Prefix.pch */,
+				8B5BA1081992328800E5E85C /* UIFaceGestureKitTrace.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2127D3199229BA00D63A5A /* UIFaceGustureKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2127D9199229BA00D63A5A /* UIFaceGestureKitTests.m */,
+				8B2127D4199229BA00D63A5A /* Supporting Files */,
+			);
+			name = UIFaceGustureKitTests;
+			path = UIFaceGestureKitTests;
+			sourceTree = "<group>";
+		};
+		8B2127D4199229BA00D63A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2127D5199229BA00D63A5A /* UIFaceGestureKitTests-Info.plist */,
+				8B2127D6199229BA00D63A5A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B5BA0FA19922C0900E5E85C /* AVVideoStreamSource */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA0FE19922C1B00E5E85C /* Settings */,
+				8B5BA0FB19922C1600E5E85C /* AVVideoSteamSource.h */,
+				8B5BA0FC19922C1600E5E85C /* AVVideoSteamSource.m */,
+			);
+			name = AVVideoStreamSource;
+			sourceTree = "<group>";
+		};
+		8B5BA0FE19922C1B00E5E85C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA0FF19922C2700E5E85C /* AVVideoSteamSourceSettings.h */,
+				8B5BA10019922C2700E5E85C /* AVVideoSteamSourceSettings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8B5BA10B19923CD500E5E85C /* UIFaceGesturesDetector */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA11319923D5C00E5E85C /* Decorator */,
+				8B5BA10F19923CFF00E5E85C /* Settings */,
+				8B5BA10C19923CFA00E5E85C /* UIFaceGestureDetector.h */,
+				8B5BA10D19923CFA00E5E85C /* UIFaceGestureDetector.m */,
+			);
+			name = UIFaceGesturesDetector;
+			sourceTree = "<group>";
+		};
+		8B5BA10F19923CFF00E5E85C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA11019923D5A00E5E85C /* UIFaceGestureDetectorSettings.h */,
+				8B5BA11119923D5A00E5E85C /* UIFaceGestureDetectorSettings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8B5BA11319923D5C00E5E85C /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA11419923D6600E5E85C /* UIFaceGestureSubscriberDecorator.h */,
+				8B5BA11519923D6600E5E85C /* UIFaceGestureSubscriberDecorator.m */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		8B5BA11719924C9100E5E85C /* UIFaceGestures */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA11A19924CB500E5E85C /* Common */,
+				8B5BA11819924C9E00E5E85C /* Eyes */,
+				8B5BA11919924CA900E5E85C /* Smile */,
+			);
+			name = UIFaceGestures;
+			sourceTree = "<group>";
+		};
+		8B5BA11819924C9E00E5E85C /* Eyes */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA17319926CD400E5E85C /* UIFaceGestureKitEyeGestures.h */,
+				8B5BA12A1992520D00E5E85C /* Detection */,
+				8B5BA1301992525700E5E85C /* Left */,
+				8B5BA12F1992525300E5E85C /* Both */,
+				8B5BA12E1992524B00E5E85C /* Right */,
+				8B5BA16B1992675300E5E85C /* Complex */,
+				8B5BA14F199258D400E5E85C /* EyeGestureSettings */,
+			);
+			name = Eyes;
+			sourceTree = "<group>";
+		};
+		8B5BA11919924CA900E5E85C /* Smile */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA19F19926E2000E5E85C /* UIFaceGestureKitSmileGestures.h */,
+				8B5BA12419924FBD00E5E85C /* UIFaceGestureSmileDetected.h */,
+				8B5BA12519924FBD00E5E85C /* UIFaceGestureSmileDetected.m */,
+				8B5BA1401992564A00E5E85C /* UIFaceGestureSmileLost.h */,
+				8B5BA1411992564A00E5E85C /* UIFaceGestureSmileLost.m */,
+			);
+			name = Smile;
+			sourceTree = "<group>";
+		};
+		8B5BA11A19924CB500E5E85C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA11B19924CCF00E5E85C /* UIFaceGesture.h */,
+				8B5BA11C19924CCF00E5E85C /* UIFaceGesture.m */,
+				8B5BA1271992503100E5E85C /* UIFaceGestureTimed.h */,
+				8B5BA1281992503100E5E85C /* UIFaceGestureTimed.m */,
+				8B5BA15F19925B9600E5E85C /* UIFaceGestureContinous.h */,
+				8B5BA16019925B9600E5E85C /* UIFaceGestureContinous.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8B5BA12A1992520D00E5E85C /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA12B1992521700E5E85C /* UIFaceGestureEyesDetected.h */,
+				8B5BA12C1992521700E5E85C /* UIFaceGestureEyesDetected.m */,
+				8B5BA13D199255C600E5E85C /* UIFaceGestureEyesLost.h */,
+				8B5BA13E199255C600E5E85C /* UIFaceGestureEyesLost.m */,
+			);
+			name = Detection;
+			sourceTree = "<group>";
+		};
+		8B5BA12E1992524B00E5E85C /* Right */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA15E19925B3400E5E85C /* Continous */,
+				8B5BA14E199257E600E5E85C /* Timed */,
+				8B5BA14B199257B700E5E85C /* Instant */,
+			);
+			name = Right;
+			sourceTree = "<group>";
+		};
+		8B5BA12F1992525300E5E85C /* Both */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA15D19925B2F00E5E85C /* Continous */,
+				8B5BA14D199257E200E5E85C /* Timed */,
+				8B5BA14A199257B200E5E85C /* Instant */,
+			);
+			name = Both;
+			sourceTree = "<group>";
+		};
+		8B5BA1301992525700E5E85C /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA15C19925B2900E5E85C /* Continous */,
+				8B5BA14C199257DC00E5E85C /* Timed */,
+				8B5BA149199257AD00E5E85C /* Instant */,
+			);
+			name = Left;
+			sourceTree = "<group>";
+		};
+		8B5BA149199257AD00E5E85C /* Instant */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1341992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.h */,
+				8B5BA1351992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.m */,
+				8B5BA1461992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.h */,
+				8B5BA1471992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.m */,
+			);
+			name = Instant;
+			sourceTree = "<group>";
+		};
+		8B5BA14A199257B200E5E85C /* Instant */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1371992550700E5E85C /* UIFaceGestureBothEyesDidClose.h */,
+				8B5BA1381992550700E5E85C /* UIFaceGestureBothEyesDidClose.m */,
+				8B5BA13A1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.h */,
+				8B5BA13B1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.m */,
+			);
+			name = Instant;
+			sourceTree = "<group>";
+		};
+		8B5BA14B199257B700E5E85C /* Instant */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1311992538200E5E85C /* UIFaceGestureRightEyeDidOpen.h */,
+				8B5BA1321992538200E5E85C /* UIFaceGestureRightEyeDidOpen.m */,
+				8B5BA143199256E500E5E85C /* UIFaceGestureRightEyeDidClose.h */,
+				8B5BA144199256E500E5E85C /* UIFaceGestureRightEyeDidClose.m */,
+			);
+			name = Instant;
+			sourceTree = "<group>";
+		};
+		8B5BA14C199257DC00E5E85C /* Timed */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1531992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.h */,
+				8B5BA1541992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.m */,
+			);
+			name = Timed;
+			sourceTree = "<group>";
+		};
+		8B5BA14D199257E200E5E85C /* Timed */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA15919925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.h */,
+				8B5BA15A19925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.m */,
+			);
+			name = Timed;
+			sourceTree = "<group>";
+		};
+		8B5BA14E199257E600E5E85C /* Timed */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA15619925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.h */,
+				8B5BA15719925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.m */,
+			);
+			name = Timed;
+			sourceTree = "<group>";
+		};
+		8B5BA14F199258D400E5E85C /* EyeGestureSettings */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1501992590200E5E85C /* UIFaceGestureEyesSettings.h */,
+				8B5BA1511992590200E5E85C /* UIFaceGestureEyesSettings.m */,
+			);
+			name = EyeGestureSettings;
+			sourceTree = "<group>";
+		};
+		8B5BA15C19925B2900E5E85C /* Continous */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA16219925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.h */,
+				8B5BA16319925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.m */,
+			);
+			name = Continous;
+			sourceTree = "<group>";
+		};
+		8B5BA15D19925B2F00E5E85C /* Continous */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA1681992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.h */,
+				8B5BA1691992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.m */,
+			);
+			name = Continous;
+			sourceTree = "<group>";
+		};
+		8B5BA15E19925B3400E5E85C /* Continous */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA16519925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.h */,
+				8B5BA16619925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.m */,
+			);
+			name = Continous;
+			sourceTree = "<group>";
+		};
+		8B5BA16B1992675300E5E85C /* Complex */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BA16F1992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h */,
+				8B5BA1701992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.m */,
+				8B5BA16C199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h */,
+				8B5BA16D199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.m */,
+			);
+			name = Complex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B5BA17619926D9E00E5E85C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED0B44919A02C540021CC69 /* UIScrollView+UIFaceGestureKit.h in Headers */,
+				0E581229199ABE5A00CB9CC1 /* UIEyeKeyboard.h in Headers */,
+				0E58122E199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.h in Headers */,
+				0E581109199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.h in Headers */,
+				0ECC3CA0199BF405002464E0 /* UITextField+UIFaceGestureKit.h in Headers */,
+				0E581104199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.h in Headers */,
+				0EC8FC3F1999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.h in Headers */,
+				8B30F72D19990CD80077F16B /* UIFaceGestureSmileDetected.h in Headers */,
+				8B30F72E19990CD80077F16B /* UIFaceGestureSmileLost.h in Headers */,
+				8B5BA1A519926E4B00E5E85C /* UIFaceGestureKit.h in Headers */,
+				0E581227199ABE5A00CB9CC1 /* UIEyeKeyboardView.h in Headers */,
+				8B5BA17A19926DC300E5E85C /* UIFaceGestureKitEyeGestures.h in Headers */,
+				8B5BA1A119926E2000E5E85C /* UIFaceGestureKitSmileGestures.h in Headers */,
+				8B5BA17719926DC300E5E85C /* UIFaceGesture.h in Headers */,
+				8B5BA17819926DC300E5E85C /* UIFaceGestureTimed.h in Headers */,
+				8B5BA17919926DC300E5E85C /* UIFaceGestureContinous.h in Headers */,
+				8B5BA17B19926DC300E5E85C /* UIFaceGestureEyesDetected.h in Headers */,
+				8B5BA17C19926DC300E5E85C /* UIFaceGestureEyesLost.h in Headers */,
+				8B5BA17D19926DC300E5E85C /* UIFaceGestureLeftEyeIsClosed.h in Headers */,
+				8B5BA17E19926DC300E5E85C /* UIFaceGestureLeftEyeDidWink.h in Headers */,
+				8B5BA17F19926DC300E5E85C /* UIFaceGestureLeftEyeDidOpen.h in Headers */,
+				8B5BA18019926DC300E5E85C /* UIFaceGestureLeftEyeDidClose.h in Headers */,
+				8B5BA18119926DC300E5E85C /* UIFaceGestureBothEyesAreClosed.h in Headers */,
+				8B5BA18219926DC300E5E85C /* UIFaceGestureBothEyesDidWink.h in Headers */,
+				8B5BA18319926DC300E5E85C /* UIFaceGestureBothEyesDidClose.h in Headers */,
+				8B5BA18419926DC300E5E85C /* UIFaceGestureBothEyesDidOpen.h in Headers */,
+				8B5BA18519926DC300E5E85C /* UIFaceGestureRightEyeIsClosed.h in Headers */,
+				8B5BA18619926DC300E5E85C /* UIFaceGestureRightEyeDidWink.h in Headers */,
+				8B5BA18719926DC300E5E85C /* UIFaceGestureRightEyeDidOpen.h in Headers */,
+				8B5BA18819926DC300E5E85C /* UIFaceGestureRightEyeDidClose.h in Headers */,
+				8B5BA18919926DC300E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.h in Headers */,
+				8B5BA18A19926DC300E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E581184199AB41D00CB9CC1 /* UIFaceGestureKitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E58118B199AB41D00CB9CC1 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitBundle" */;
+			buildPhases = (
+				0E581181199AB41D00CB9CC1 /* Sources */,
+				0E581182199AB41D00CB9CC1 /* Frameworks */,
+				0E581183199AB41D00CB9CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFaceGestureKitBundle;
+			productName = UIFaceGestureKitBundle;
+			productReference = 0E581185199AB41D00CB9CC1 /* UIFaceGestureKitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8B2127B9199229BA00D63A5A /* UIFaceGestureKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2127DD199229BA00D63A5A /* Build configuration list for PBXNativeTarget "UIFaceGestureKit" */;
+			buildPhases = (
+				8B2127B6199229BA00D63A5A /* Sources */,
+				8B2127B7199229BA00D63A5A /* Frameworks */,
+				8B2127B8199229BA00D63A5A /* CopyFiles */,
+				8B5BA17619926D9E00E5E85C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E581236199AD54500CB9CC1 /* PBXTargetDependency */,
+			);
+			name = UIFaceGestureKit;
+			productName = UIFaceGustureKit;
+			productReference = 8B2127BA199229BA00D63A5A /* libUIFaceGestureKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B2127C9199229BA00D63A5A /* UIFaceGestureKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2127E0199229BA00D63A5A /* Build configuration list for PBXNativeTarget "UIFaceGestureKitTests" */;
+			buildPhases = (
+				8B2127C6199229BA00D63A5A /* Sources */,
+				8B2127C7199229BA00D63A5A /* Frameworks */,
+				8B2127C8199229BA00D63A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2127D1199229BA00D63A5A /* PBXTargetDependency */,
+			);
+			name = UIFaceGestureKitTests;
+			productName = UIFaceGustureKitTests;
+			productReference = 8B2127CA199229BA00D63A5A /* UIFaceGestureKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2127B2199229BA00D63A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rinat Enikeev";
+				TargetAttributes = {
+					0E581184199AB41D00CB9CC1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 8B2127B5199229BA00D63A5A /* Build configuration list for PBXProject "UIFaceGestureKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = 8B2127B1199229BA00D63A5A;
+			productRefGroup = 8B2127BB199229BA00D63A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2127B9199229BA00D63A5A /* UIFaceGestureKit */,
+				8B2127C9199229BA00D63A5A /* UIFaceGestureKitTests */,
+				0E581184199AB41D00CB9CC1 /* UIFaceGestureKitBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E581183199AB41D00CB9CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5811DE199ABD7D00CB9CC1 /* KeyboardRuSharp.png in Resources */,
+				0E581205199ABDA000CB9CC1 /* UIEyeKeyboardView.xib in Resources */,
+				0E5811FF199ABD9500CB9CC1 /* KeyboardIPhoneEn.png in Resources */,
+				0E5811ED199ABD8700CB9CC1 /* KeyboardEnIPhoneShiftUp.png in Resources */,
+				0E5811EA199ABD8500CB9CC1 /* KeyboardRuIPhoneShiftUp.png in Resources */,
+				0E5811C6199ABD6000CB9CC1 /* KeyboardCharacters.strings in Resources */,
+				0E5811F0199ABD8900CB9CC1 /* KeyboardEnIPhoneShiftDown.png in Resources */,
+				0E5811F6199ABD8E00CB9CC1 /* KeyboardEnIPhoneDigits.png in Resources */,
+				0E5811F3199ABD8C00CB9CC1 /* KeyboardRuIPhoneDigits.png in Resources */,
+				0E5811D2199ABD7600CB9CC1 /* KeyboardRightShiftUp.png in Resources */,
+				0E5811F9199ABD9100CB9CC1 /* KeyboardRuIPhoneSharp.png in Resources */,
+				0E5811C9199ABD7000CB9CC1 /* KeyboardShiftUp.png in Resources */,
+				0E5811DB199ABD7B00CB9CC1 /* KeyboardEnSharp.png in Resources */,
+				0E581202199ABD9700CB9CC1 /* KeyboardIPhoneRu.png in Resources */,
+				0E5811FC199ABD9300CB9CC1 /* KeyboardEnIPhoneSharp.png in Resources */,
+				0E5811E1199ABD7F00CB9CC1 /* KeyboardEn.png in Resources */,
+				0E5811D5199ABD7800CB9CC1 /* KeyboardEnDigits.png in Resources */,
+				0E5811E7199ABD8300CB9CC1 /* KeyboardRuIPhoneShiftDown.png in Resources */,
+				0E5811D8199ABD7900CB9CC1 /* KeyboardRuDigits.png in Resources */,
+				0E5811E4199ABD8000CB9CC1 /* KeyboardRu.png in Resources */,
+				0E5811CF199ABD7400CB9CC1 /* KeyboardRightShiftDown.png in Resources */,
+				0E581208199ABDA400CB9CC1 /* UIEyeKeyboardViewIPhone.xib in Resources */,
+				0E5811CC199ABD7200CB9CC1 /* KeyboardShiftDown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2127C8199229BA00D63A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2127D8199229BA00D63A5A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E581181199AB41D00CB9CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2127B6199229BA00D63A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5BA13F199255C600E5E85C /* UIFaceGestureEyesLost.m in Sources */,
+				8B5BA15B19925AAB00E5E85C /* UIFaceGestureBothEyesDidWink.m in Sources */,
+				8B5BA1391992550700E5E85C /* UIFaceGestureBothEyesDidClose.m in Sources */,
+				8B5BA12619924FBD00E5E85C /* UIFaceGestureSmileDetected.m in Sources */,
+				0E58122F199ABFCD00CB9CC1 /* UIFaceGestureKitBundle.m in Sources */,
+				8B5BA10E19923CFA00E5E85C /* UIFaceGestureDetector.m in Sources */,
+				8B5BA15819925A5A00E5E85C /* UIFaceGestureRightEyeDidWink.m in Sources */,
+				0EC8FC401999BCBA00ACA902 /* UIViewController+UIFaceGestureKit.m in Sources */,
+				8B5BA1551992596F00E5E85C /* UIFaceGestureLeftEyeDidWink.m in Sources */,
+				8B5BA16A1992617B00E5E85C /* UIFaceGestureBothEyesAreClosed.m in Sources */,
+				8B5BA13C1992557A00E5E85C /* UIFaceGestureBothEyesDidOpen.m in Sources */,
+				0ECC3CA1199BF405002464E0 /* UITextField+UIFaceGestureKit.m in Sources */,
+				8B5BA0FD19922C1600E5E85C /* AVVideoSteamSource.m in Sources */,
+				8B5BA1481992575D00E5E85C /* UIFaceGestureLeftEyeDidClose.m in Sources */,
+				8B5BA11219923D5A00E5E85C /* UIFaceGestureDetectorSettings.m in Sources */,
+				8B5BA12D1992521700E5E85C /* UIFaceGestureEyesDetected.m in Sources */,
+				0E58110A199A85A300CB9CC1 /* UICollectionView+UIFaceGestureKit.m in Sources */,
+				8B5BA1711992682B00E5E85C /* UIFaceGestureBothEyesClosedThenRightDidOpen.m in Sources */,
+				8B5BA1361992545E00E5E85C /* UIFaceGestureLeftEyeDidOpen.m in Sources */,
+				8B5BA16719925E3200E5E85C /* UIFaceGestureRightEyeIsClosed.m in Sources */,
+				8B5BA16119925B9600E5E85C /* UIFaceGestureContinous.m in Sources */,
+				8B5BA1331992538200E5E85C /* UIFaceGestureRightEyeDidOpen.m in Sources */,
+				0E581105199A58FB00CB9CC1 /* UITableView+UIFaceGestureKit.m in Sources */,
+				8B5BA11619923D6600E5E85C /* UIFaceGestureSubscriberDecorator.m in Sources */,
+				8B5BA11D19924CCF00E5E85C /* UIFaceGesture.m in Sources */,
+				8B5BA1521992590200E5E85C /* UIFaceGestureEyesSettings.m in Sources */,
+				8B5BA1291992503100E5E85C /* UIFaceGestureTimed.m in Sources */,
+				8B5BA16E199267DD00E5E85C /* UIFaceGestureBothEyesClosedThenLeftDidOpen.m in Sources */,
+				8B5BA10119922C2700E5E85C /* AVVideoSteamSourceSettings.m in Sources */,
+				0ED0B44A19A02C540021CC69 /* UIScrollView+UIFaceGestureKit.m in Sources */,
+				8B5BA145199256E500E5E85C /* UIFaceGestureRightEyeDidClose.m in Sources */,
+				0E58122A199ABE5A00CB9CC1 /* UIEyeKeyboard.m in Sources */,
+				0E581228199ABE5A00CB9CC1 /* UIEyeKeyboardView.m in Sources */,
+				8B5BA1421992564A00E5E85C /* UIFaceGestureSmileLost.m in Sources */,
+				8B5BA16419925D8600E5E85C /* UIFaceGestureLeftEyeIsClosed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2127C6199229BA00D63A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2127DA199229BA00D63A5A /* UIFaceGestureKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E581236199AD54500CB9CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E581184199AB41D00CB9CC1 /* UIFaceGestureKitBundle */;
+			targetProxy = 0E581235199AD54500CB9CC1 /* PBXContainerItemProxy */;
+		};
+		8B2127D1199229BA00D63A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2127B9199229BA00D63A5A /* UIFaceGestureKit */;
+			targetProxy = 8B2127D0199229BA00D63A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E5811C8199ABD6000CB9CC1 /* KeyboardCharacters.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811C7199ABD6000CB9CC1 /* en */,
+				0E58120C199ABDC300CB9CC1 /* ru */,
+			);
+			name = KeyboardCharacters.strings;
+			sourceTree = "<group>";
+		};
+		0E5811CB199ABD7000CB9CC1 /* KeyboardShiftUp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811CA199ABD7000CB9CC1 /* en */,
+				0E58120D199ABDC300CB9CC1 /* ru */,
+			);
+			name = KeyboardShiftUp.png;
+			sourceTree = "<group>";
+		};
+		0E5811CE199ABD7200CB9CC1 /* KeyboardShiftDown.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811CD199ABD7200CB9CC1 /* en */,
+				0E58120E199ABDC300CB9CC1 /* ru */,
+			);
+			name = KeyboardShiftDown.png;
+			sourceTree = "<group>";
+		};
+		0E5811D1199ABD7400CB9CC1 /* KeyboardRightShiftDown.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811D0199ABD7400CB9CC1 /* en */,
+				0E58120F199ABDC300CB9CC1 /* ru */,
+			);
+			name = KeyboardRightShiftDown.png;
+			sourceTree = "<group>";
+		};
+		0E5811D4199ABD7600CB9CC1 /* KeyboardRightShiftUp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811D3199ABD7600CB9CC1 /* en */,
+				0E581210199ABDC300CB9CC1 /* ru */,
+			);
+			name = KeyboardRightShiftUp.png;
+			sourceTree = "<group>";
+		};
+		0E5811D7199ABD7800CB9CC1 /* KeyboardEnDigits.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811D6199ABD7800CB9CC1 /* en */,
+				0E581211199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnDigits.png;
+			sourceTree = "<group>";
+		};
+		0E5811DA199ABD7900CB9CC1 /* KeyboardRuDigits.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811D9199ABD7900CB9CC1 /* en */,
+				0E581212199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuDigits.png;
+			sourceTree = "<group>";
+		};
+		0E5811DD199ABD7B00CB9CC1 /* KeyboardEnSharp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811DC199ABD7B00CB9CC1 /* en */,
+				0E581213199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnSharp.png;
+			sourceTree = "<group>";
+		};
+		0E5811E0199ABD7D00CB9CC1 /* KeyboardRuSharp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811DF199ABD7D00CB9CC1 /* en */,
+				0E581214199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuSharp.png;
+			sourceTree = "<group>";
+		};
+		0E5811E3199ABD7F00CB9CC1 /* KeyboardEn.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811E2199ABD7F00CB9CC1 /* en */,
+				0E581215199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEn.png;
+			sourceTree = "<group>";
+		};
+		0E5811E6199ABD8000CB9CC1 /* KeyboardRu.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811E5199ABD8000CB9CC1 /* en */,
+				0E581216199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRu.png;
+			sourceTree = "<group>";
+		};
+		0E5811E9199ABD8300CB9CC1 /* KeyboardRuIPhoneShiftDown.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811E8199ABD8300CB9CC1 /* en */,
+				0E581217199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuIPhoneShiftDown.png;
+			sourceTree = "<group>";
+		};
+		0E5811EC199ABD8500CB9CC1 /* KeyboardRuIPhoneShiftUp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811EB199ABD8500CB9CC1 /* en */,
+				0E581218199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuIPhoneShiftUp.png;
+			sourceTree = "<group>";
+		};
+		0E5811EF199ABD8700CB9CC1 /* KeyboardEnIPhoneShiftUp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811EE199ABD8700CB9CC1 /* en */,
+				0E581219199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnIPhoneShiftUp.png;
+			sourceTree = "<group>";
+		};
+		0E5811F2199ABD8900CB9CC1 /* KeyboardEnIPhoneShiftDown.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811F1199ABD8900CB9CC1 /* en */,
+				0E58121A199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnIPhoneShiftDown.png;
+			sourceTree = "<group>";
+		};
+		0E5811F5199ABD8C00CB9CC1 /* KeyboardRuIPhoneDigits.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811F4199ABD8C00CB9CC1 /* en */,
+				0E58121B199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuIPhoneDigits.png;
+			sourceTree = "<group>";
+		};
+		0E5811F8199ABD8E00CB9CC1 /* KeyboardEnIPhoneDigits.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811F7199ABD8E00CB9CC1 /* en */,
+				0E58121C199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnIPhoneDigits.png;
+			sourceTree = "<group>";
+		};
+		0E5811FB199ABD9100CB9CC1 /* KeyboardRuIPhoneSharp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811FA199ABD9100CB9CC1 /* en */,
+				0E58121D199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardRuIPhoneSharp.png;
+			sourceTree = "<group>";
+		};
+		0E5811FE199ABD9300CB9CC1 /* KeyboardEnIPhoneSharp.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5811FD199ABD9300CB9CC1 /* en */,
+				0E58121E199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardEnIPhoneSharp.png;
+			sourceTree = "<group>";
+		};
+		0E581201199ABD9500CB9CC1 /* KeyboardIPhoneEn.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E581200199ABD9500CB9CC1 /* en */,
+				0E58121F199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardIPhoneEn.png;
+			sourceTree = "<group>";
+		};
+		0E581204199ABD9700CB9CC1 /* KeyboardIPhoneRu.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E581203199ABD9700CB9CC1 /* en */,
+				0E581220199ABDC400CB9CC1 /* ru */,
+			);
+			name = KeyboardIPhoneRu.png;
+			sourceTree = "<group>";
+		};
+		0E581207199ABDA000CB9CC1 /* UIEyeKeyboardView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E581206199ABDA000CB9CC1 /* en */,
+				0E581221199ABDC400CB9CC1 /* ru */,
+			);
+			name = UIEyeKeyboardView.xib;
+			sourceTree = "<group>";
+		};
+		0E58120A199ABDA400CB9CC1 /* UIEyeKeyboardViewIPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E581209199ABDA400CB9CC1 /* en */,
+				0E581222199ABDC400CB9CC1 /* ru */,
+			);
+			name = UIEyeKeyboardViewIPhone.xib;
+			sourceTree = "<group>";
+		};
+		8B2127D6199229BA00D63A5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2127D7199229BA00D63A5A /* en */,
+				0E58120B199ABDC300CB9CC1 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E581189199AB41D00CB9CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIFaceGestureKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0E58118A199AB41D00CB9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = UIFaceGestureKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B2127DB199229BA00D63A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B2127DC199229BA00D63A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2127DE199229BA00D63A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIFaceGestureKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIFaceGestureKit/UIFaceGestureKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UIFaceGestureKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B2127DF199229BA00D63A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIFaceGestureKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIFaceGestureKit/UIFaceGestureKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UIFaceGestureKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B2127E1199229BA00D63A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIFaceGestureKit/UIFaceGestureKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIFaceGestureKitTests/UIFaceGestureKitTests-Info.plist";
+				PRODUCT_NAME = UIFaceGestureKitTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B2127E2199229BA00D63A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIFaceGestureKit/UIFaceGestureKit-Prefix.pch";
+				INFOPLIST_FILE = "UIFaceGestureKitTests/UIFaceGestureKitTests-Info.plist";
+				PRODUCT_NAME = UIFaceGestureKitTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E58118B199AB41D00CB9CC1 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E581189199AB41D00CB9CC1 /* Debug */,
+				0E58118A199AB41D00CB9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2127B5199229BA00D63A5A /* Build configuration list for PBXProject "UIFaceGestureKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2127DB199229BA00D63A5A /* Debug */,
+				8B2127DC199229BA00D63A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2127DD199229BA00D63A5A /* Build configuration list for PBXNativeTarget "UIFaceGestureKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2127DE199229BA00D63A5A /* Debug */,
+				8B2127DF199229BA00D63A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2127E0199229BA00D63A5A /* Build configuration list for PBXNativeTarget "UIFaceGestureKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2127E1199229BA00D63A5A /* Debug */,
+				8B2127E2199229BA00D63A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2127B2199229BA00D63A5A /* Project object */;
+}
