@@ -9,15 +9,16 @@ Run Showcase (only on device) and follow the instructions:
 
 ## Usage
 
+```Objective-C
+    #import "UIFaceGestureKit/UIFaceGestureKit.h"
+```
+
 UITableView:
 ```Objective-C
-#import "UIFaceGestureKit/UIFaceGestureKit.h"
-
     self.tableView.faceInteractionEnabled = YES;
     self.tableView.eyeScrollingEnabled = YES;
     // self.tableView.eyeSelectionEnabled = YES;
     // self.tableView.eyeScrollingCircle = YES;
-    
 ```
 
 UICollectionView: 
@@ -36,8 +37,8 @@ UITextField:
 
 Any direct usage of:
 ```Objective-C
-#import "UIFaceGestureKitEyeGestures.h"
-#import "UIFaceGestureKitSmileGestures.h"
+    #import "UIFaceGestureKitEyeGestures.h"
+    #import "UIFaceGestureKitSmileGestures.h"
 ```
 
 ## Contributing
