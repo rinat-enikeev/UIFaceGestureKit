@@ -6,7 +6,7 @@ ObjC framework for working with face gestures (eye and smile)
 Open UIFaceGestureKitWorkspace.xcworkspace (Workspace). 
 
 Add framework bundle to Showcase:
-![alt tag](https://raw.github.com/rinat-enikeev/UIFaceGestureKit/blob/master/ShowcaseHowto.png)
+![alt tag](https://raw.githubusercontent.com/rinat-enikeev/UIFaceGestureKit/master/ShowcaseHowto.png)
 
 
 Run Showcase (only on device) and follow the instructions: 
