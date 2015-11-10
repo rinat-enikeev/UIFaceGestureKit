@@ -10,7 +10,7 @@ Run Showcase (only on device) and follow the instructions:
 ## Usage
 
 UITableView:
-```
+```Objective-C
 #import "UIFaceGestureKit/UIFaceGestureKit.h"
 
     self.tableView.faceInteractionEnabled = YES;
@@ -21,7 +21,7 @@ UITableView:
 ```
 
 UICollectionView: 
-```
+```Objective-C
     collectionView.faceInteractionEnabled = YES;
     collectionView.eyeScrollingEnabled = YES;
     collectionView.eyeScrollingDelay = 0.3;
@@ -30,12 +30,12 @@ UICollectionView:
 ```
 
 UITextField: 
-```
+```Objective-C
    [_textField setEyeKeyboardInput:YES];
 ```
 
 Any direct usage of:
-```
+```Objective-C
 #import "UIFaceGestureKitEyeGestures.h"
 #import "UIFaceGestureKitSmileGestures.h"
 ```
