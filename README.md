@@ -3,6 +3,7 @@ ObjC framework for working with face gestures (eye and smile)
 
 ## Demo
 Run Showcase (only on device) and follow the instructions: 
+
 1. Place you face in front of the camera.  
 2. Close one eye and see how tableview row selection changes. 
 
