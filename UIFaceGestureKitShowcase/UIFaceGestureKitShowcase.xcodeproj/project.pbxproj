@@ -21,7 +21,6 @@
 		0EC8FC791999BD6500ACA902 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC781999BD6500ACA902 /* AVFoundation.framework */; };
 		0EC8FC7B1999BD7B00ACA902 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC7A1999BD7B00ACA902 /* CoreImage.framework */; };
 		0EC8FC7E1999BDEB00ACA902 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC7D1999BDEB00ACA902 /* CoreMedia.framework */; };
-		0EDA151319A00C7900702C2E /* UIFaceGestureKitBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA151219A00C7900702C2E /* UIFaceGestureKitBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,7 +292,6 @@
 			files = (
 				0EC8FC5C1999BD2D00ACA902 /* Main.storyboard in Resources */,
 				0EC8FC5E1999BD2D00ACA902 /* Images.xcassets in Resources */,
-				0EDA151319A00C7900702C2E /* UIFaceGestureKitBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
