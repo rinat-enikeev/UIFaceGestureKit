@@ -1,5 +1,5 @@
 # UIFaceGestureKit
-ObjC framework for working with face gestures (eye and smile gestures only currently) 
+ObjC framework for working with face gestures (eye and smile) 
 
 ## Demo
 Run Showcase (only on device) and follow the instructions: 
