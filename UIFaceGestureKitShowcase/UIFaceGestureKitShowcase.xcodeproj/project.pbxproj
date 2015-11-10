@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E581112199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581111199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.m */; };
+		0E581234199AD22400CB9CC1 /* FGKSKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E581233199AD22400CB9CC1 /* FGKSKeyboardViewController.m */; };
+		0EC8FC501999BD2D00ACA902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC4F1999BD2D00ACA902 /* main.m */; };
+		0EC8FC531999BD2D00ACA902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC521999BD2D00ACA902 /* AppDelegate.m */; };
+		0EC8FC561999BD2D00ACA902 /* FGKSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC551999BD2D00ACA902 /* FGKSTableViewController.m */; };
+		0EC8FC591999BD2D00ACA902 /* FGKSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC581999BD2D00ACA902 /* FGKSCollectionViewController.m */; };
+		0EC8FC5C1999BD2D00ACA902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8FC5A1999BD2D00ACA902 /* Main.storyboard */; };
+		0EC8FC5E1999BD2D00ACA902 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8FC5D1999BD2D00ACA902 /* Images.xcassets */; };
+		0EC8FC6A1999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8FC691999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.m */; };
+		0EC8FC741999BD3700ACA902 /* libUIFaceGestureKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC731999BD3700ACA902 /* libUIFaceGestureKit.a */; };
+		0EC8FC771999BD6000ACA902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC761999BD6000ACA902 /* UIKit.framework */; };
+		0EC8FC791999BD6500ACA902 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC781999BD6500ACA902 /* AVFoundation.framework */; };
+		0EC8FC7B1999BD7B00ACA902 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC7A1999BD7B00ACA902 /* CoreImage.framework */; };
+		0EC8FC7E1999BDEB00ACA902 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC8FC7D1999BDEB00ACA902 /* CoreMedia.framework */; };
+		0EDA151319A00C7900702C2E /* UIFaceGestureKitBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA151219A00C7900702C2E /* UIFaceGestureKitBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EC8FC641999BD2D00ACA902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EC8FC421999BD2D00ACA902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EC8FC491999BD2D00ACA902;
+			remoteInfo = UIFaceGestureKitShowcase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E581110199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGKSSimpleCollectionViewCell.h; sourceTree = "<group>"; };
+		0E581111199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGKSSimpleCollectionViewCell.m; sourceTree = "<group>"; };
+		0E581232199AD22400CB9CC1 /* FGKSKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGKSKeyboardViewController.h; sourceTree = "<group>"; };
+		0E581233199AD22400CB9CC1 /* FGKSKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGKSKeyboardViewController.m; sourceTree = "<group>"; };
+		0EC8FC4A1999BD2D00ACA902 /* UIFaceGestureKitShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFaceGestureKitShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC8FC4E1999BD2D00ACA902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC8FC4F1999BD2D00ACA902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EC8FC511999BD2D00ACA902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EC8FC521999BD2D00ACA902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EC8FC541999BD2D00ACA902 /* FGKSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGKSTableViewController.h; sourceTree = "<group>"; };
+		0EC8FC551999BD2D00ACA902 /* FGKSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGKSTableViewController.m; sourceTree = "<group>"; };
+		0EC8FC571999BD2D00ACA902 /* FGKSCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGKSCollectionViewController.h; sourceTree = "<group>"; };
+		0EC8FC581999BD2D00ACA902 /* FGKSCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGKSCollectionViewController.m; sourceTree = "<group>"; };
+		0EC8FC5B1999BD2D00ACA902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EC8FC5D1999BD2D00ACA902 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EC8FC631999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFaceGestureKitShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC8FC681999BD2D00ACA902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC8FC691999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFaceGestureKitShowcaseTests.m; sourceTree = "<group>"; };
+		0EC8FC731999BD3700ACA902 /* libUIFaceGestureKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUIFaceGestureKit.a; path = "../../../../../Library/Developer/Xcode/DerivedData/UIFaceGestureKitWorkspace-dlswfbxpbegdgietuvxxtbdivbwj/Build/Products/Debug-iphoneos/libUIFaceGestureKit.a"; sourceTree = "<group>"; };
+		0EC8FC761999BD6000ACA902 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EC8FC781999BD6500ACA902 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0EC8FC7A1999BD7B00ACA902 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0EC8FC7D1999BDEB00ACA902 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0EDA151219A00C7900702C2E /* UIFaceGestureKitBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UIFaceGestureKitBundle.bundle; path = "../../../../../../Library/Developer/Xcode/DerivedData/UIFaceGestureKitWorkspace-dlswfbxpbegdgietuvxxtbdivbwj/Build/Products/Debug-iphoneos/UIFaceGestureKitBundle.bundle"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC8FC471999BD2D00ACA902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC8FC7E1999BDEB00ACA902 /* CoreMedia.framework in Frameworks */,
+				0EC8FC7B1999BD7B00ACA902 /* CoreImage.framework in Frameworks */,
+				0EC8FC791999BD6500ACA902 /* AVFoundation.framework in Frameworks */,
+				0EC8FC771999BD6000ACA902 /* UIKit.framework in Frameworks */,
+				0EC8FC741999BD3700ACA902 /* libUIFaceGestureKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC8FC601999BD2D00ACA902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E58110C199A9E9300CB9CC1 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0E581231199AD20200CB9CC1 /* Keyboard */,
+				0E58110D199A9E9800CB9CC1 /* TableView */,
+				0E58110E199A9EA100CB9CC1 /* CollectionView */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		0E58110D199A9E9800CB9CC1 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC541999BD2D00ACA902 /* FGKSTableViewController.h */,
+				0EC8FC551999BD2D00ACA902 /* FGKSTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		0E58110E199A9EA100CB9CC1 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0E58110F199A9EAF00CB9CC1 /* Cell */,
+				0EC8FC571999BD2D00ACA902 /* FGKSCollectionViewController.h */,
+				0EC8FC581999BD2D00ACA902 /* FGKSCollectionViewController.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		0E58110F199A9EAF00CB9CC1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E581110199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.h */,
+				0E581111199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0E581231199AD20200CB9CC1 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E581232199AD22400CB9CC1 /* FGKSKeyboardViewController.h */,
+				0E581233199AD22400CB9CC1 /* FGKSKeyboardViewController.m */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+		0EC8FC411999BD2D00ACA902 = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC4C1999BD2D00ACA902 /* UIFaceGestureKitShowcase */,
+				0EC8FC661999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests */,
+				0EC8FC7C1999BD7F00ACA902 /* Frameworks */,
+				0EC8FC751999BD3D00ACA902 /* Libraries */,
+				0EC8FC4B1999BD2D00ACA902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EC8FC4B1999BD2D00ACA902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC4A1999BD2D00ACA902 /* UIFaceGestureKitShowcase.app */,
+				0EC8FC631999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EC8FC4C1999BD2D00ACA902 /* UIFaceGestureKitShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				0E58110C199A9E9300CB9CC1 /* Tabs */,
+				0EC8FC511999BD2D00ACA902 /* AppDelegate.h */,
+				0EC8FC521999BD2D00ACA902 /* AppDelegate.m */,
+				0EC8FC5A1999BD2D00ACA902 /* Main.storyboard */,
+				0EC8FC5D1999BD2D00ACA902 /* Images.xcassets */,
+				0EC8FC4D1999BD2D00ACA902 /* Supporting Files */,
+			);
+			path = UIFaceGestureKitShowcase;
+			sourceTree = "<group>";
+		};
+		0EC8FC4D1999BD2D00ACA902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EDA151219A00C7900702C2E /* UIFaceGestureKitBundle.bundle */,
+				0EC8FC4E1999BD2D00ACA902 /* Info.plist */,
+				0EC8FC4F1999BD2D00ACA902 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EC8FC661999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC691999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.m */,
+				0EC8FC671999BD2D00ACA902 /* Supporting Files */,
+			);
+			path = UIFaceGestureKitShowcaseTests;
+			sourceTree = "<group>";
+		};
+		0EC8FC671999BD2D00ACA902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC681999BD2D00ACA902 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EC8FC751999BD3D00ACA902 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC731999BD3700ACA902 /* libUIFaceGestureKit.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		0EC8FC7C1999BD7F00ACA902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8FC7D1999BDEB00ACA902 /* CoreMedia.framework */,
+				0EC8FC7A1999BD7B00ACA902 /* CoreImage.framework */,
+				0EC8FC781999BD6500ACA902 /* AVFoundation.framework */,
+				0EC8FC761999BD6000ACA902 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EC8FC491999BD2D00ACA902 /* UIFaceGestureKitShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC8FC6D1999BD2D00ACA902 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitShowcase" */;
+			buildPhases = (
+				0EC8FC461999BD2D00ACA902 /* Sources */,
+				0EC8FC471999BD2D00ACA902 /* Frameworks */,
+				0EC8FC481999BD2D00ACA902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFaceGestureKitShowcase;
+			productName = UIFaceGestureKitShowcase;
+			productReference = 0EC8FC4A1999BD2D00ACA902 /* UIFaceGestureKitShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EC8FC621999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC8FC701999BD2D00ACA902 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitShowcaseTests" */;
+			buildPhases = (
+				0EC8FC5F1999BD2D00ACA902 /* Sources */,
+				0EC8FC601999BD2D00ACA902 /* Frameworks */,
+				0EC8FC611999BD2D00ACA902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EC8FC651999BD2D00ACA902 /* PBXTargetDependency */,
+			);
+			name = UIFaceGestureKitShowcaseTests;
+			productName = UIFaceGestureKitShowcaseTests;
+			productReference = 0EC8FC631999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EC8FC421999BD2D00ACA902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rinat Enikeev";
+				TargetAttributes = {
+					0EC8FC491999BD2D00ACA902 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 5V5EUT3ZXJ;
+					};
+					0EC8FC621999BD2D00ACA902 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0EC8FC491999BD2D00ACA902;
+					};
+				};
+			};
+			buildConfigurationList = 0EC8FC451999BD2D00ACA902 /* Build configuration list for PBXProject "UIFaceGestureKitShowcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EC8FC411999BD2D00ACA902;
+			productRefGroup = 0EC8FC4B1999BD2D00ACA902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EC8FC491999BD2D00ACA902 /* UIFaceGestureKitShowcase */,
+				0EC8FC621999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EC8FC481999BD2D00ACA902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC8FC5C1999BD2D00ACA902 /* Main.storyboard in Resources */,
+				0EC8FC5E1999BD2D00ACA902 /* Images.xcassets in Resources */,
+				0EDA151319A00C7900702C2E /* UIFaceGestureKitBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC8FC611999BD2D00ACA902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC8FC461999BD2D00ACA902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC8FC591999BD2D00ACA902 /* FGKSCollectionViewController.m in Sources */,
+				0EC8FC531999BD2D00ACA902 /* AppDelegate.m in Sources */,
+				0E581234199AD22400CB9CC1 /* FGKSKeyboardViewController.m in Sources */,
+				0EC8FC561999BD2D00ACA902 /* FGKSTableViewController.m in Sources */,
+				0E581112199A9F7E00CB9CC1 /* FGKSSimpleCollectionViewCell.m in Sources */,
+				0EC8FC501999BD2D00ACA902 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC8FC5F1999BD2D00ACA902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC8FC6A1999BD2D00ACA902 /* UIFaceGestureKitShowcaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EC8FC651999BD2D00ACA902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EC8FC491999BD2D00ACA902 /* UIFaceGestureKitShowcase */;
+			targetProxy = 0EC8FC641999BD2D00ACA902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EC8FC5A1999BD2D00ACA902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC8FC5B1999BD2D00ACA902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EC8FC6B1999BD2D00ACA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC8FC6C1999BD2D00ACA902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EC8FC6E1999BD2D00ACA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIFaceGestureKitShowcase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/UIFaceGestureKitWorkspace-dlswfbxpbegdgietuvxxtbdivbwj/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0EC8FC6F1999BD2D00ACA902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIFaceGestureKitShowcase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/UIFaceGestureKitWorkspace-dlswfbxpbegdgietuvxxtbdivbwj/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0EC8FC711999BD2D00ACA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIFaceGestureKitShowcaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIFaceGestureKitShowcase.app/UIFaceGestureKitShowcase";
+			};
+			name = Debug;
+		};
+		0EC8FC721999BD2D00ACA902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIFaceGestureKitShowcaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIFaceGestureKitShowcase.app/UIFaceGestureKitShowcase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EC8FC451999BD2D00ACA902 /* Build configuration list for PBXProject "UIFaceGestureKitShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC8FC6B1999BD2D00ACA902 /* Debug */,
+				0EC8FC6C1999BD2D00ACA902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC8FC6D1999BD2D00ACA902 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC8FC6E1999BD2D00ACA902 /* Debug */,
+				0EC8FC6F1999BD2D00ACA902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC8FC701999BD2D00ACA902 /* Build configuration list for PBXNativeTarget "UIFaceGestureKitShowcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC8FC711999BD2D00ACA902 /* Debug */,
+				0EC8FC721999BD2D00ACA902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EC8FC421999BD2D00ACA902 /* Project object */;
+}
